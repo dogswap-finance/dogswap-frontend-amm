@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.vikingswap.finance/'
+    href: 'https://smiling.finance/'
   },
   {
     label: 'Trade',
@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.vikingswap.finance/farms'
+    href: 'https://smiling.finance/farms'
   },
   {
     label: 'Armory',
     icon: 'PoolIcon',
-    href: 'https://www.vikingswap.finance/nests'
+    href: 'https://smiling.finance/nests'
   },
   {
     label: 'Info',
@@ -37,16 +37,8 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/viking-swap/',
-      },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/viking-swap',
-      },
+        href: 'https://pancakeswap.info/token/0x576A96697843618D2274B1bba41F8007ba2a939e',
+      }
     ]
   },
   {
@@ -55,23 +47,18 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/VikingDefi/",
+        href: "https://github.com/SmilingFinance/",
       },
       {
         label: "Docs",
-        href: "https://vikingswap.gitbook.io/viking-swap/",
+        href: "https://docs.smiling.finance/",
       },
       {
         label: "Blog",
-        href: "https://viking-swap.medium.com/",
+        href: "https://smilingfinance.medium.com/",
       },
     ],
-  },
-  {
-    label: 'Audit by Hacken',
-    icon: 'HelmetIcon',
-    href: 'https://www.vikingswap.finance/files/vikingHackenAudit.pdf',
-  },
+  }
 ]
 
 export default config

@@ -11,9 +11,9 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "Viking Swap",
-      "symbol": "VIKING",
-      "address": "0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0",
+      "name": "Smiling Finance",
+      "symbol": "SMILING",
+      "address": "0x576A96697843618D2274B1bba41F8007ba2a939e",
       "chainId": 56,
       "decimals": 18
     },
